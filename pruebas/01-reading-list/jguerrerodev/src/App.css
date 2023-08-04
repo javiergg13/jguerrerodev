@@ -1,6 +1,11 @@
+#root {
+  padding: 10px 50px;
+}
+
 .book-img {
   width: 110px;
   height: 170px;
+  border-radius: 10px;
 }
 
 .book-img:hover {
@@ -12,7 +17,35 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 16px;
+}
+
+.menu-container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.filtrar-paginas {
+  display: grid;
+  max-width: 220px;
+}
+
+.filtrar-genero {
+  display: grid;
+  justify-items: center;
+}
+
+.select-genero {
+  min-width: 110px;
+  border-radius: 10px;
+  padding: 6.4px;
+}
+
+.select-genero>option {
+  min-width: 110px;
+  border-radius: 10px;
+  padding: 6px;
 }
